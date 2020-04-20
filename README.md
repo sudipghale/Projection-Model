@@ -2,6 +2,7 @@
 Graphics ( parallel and perspective projection) 
 
 #---------------------------------------------------------------------
+
 To Compile:
 $ gcc -o hmwk_02 hmwk_02.c face.c model.c projection.c triangle.c vertex.c view.c -lm
 $ ./hmwk_02 Tests/pyramid.svfm Tests/pyramid_setting_01.view
