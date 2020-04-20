@@ -12,20 +12,6 @@ $ ./hmwk_02 Tests/pyramid.svfm Tests/pyramid_setting_01.view
 #----------------------------------------------------------------------
 Background:
 
-  * The fundamental mathematics of projection (parallel and
-    perspective) are described in the two handouts
-    "4303 Projection Parallel" and "4303 Projections"
-    available on Canvas.
-
-  * View files have the following format.  (The basic structure is
-    the same as the SVFM file, just with different entries.)
-
-    - Blank lines are to be ignored.  (A blank line has no
-      characters at all or is just whitespace.)
-
-    - Lines with '#' as the first non-whitespace character are
-      comments and are to be ignored.
-
     - A line with a 'w' as the first non-whitespace character is
       the Worldspace line.  There will be four numbers following
       the 'w': the xMin, yMin, xMax, and yMax limits of the
@@ -63,7 +49,4 @@ Background:
       represents a PERSPECTIVE projection, with the viewpoint
       located at [ 0, 0, d ]T.)
 
-    - If a line starts with any other non-whitespace character, it
-      should be silently ignored.  ('silently' means you should
-      not print an error message.  Just ignore it.)
 
